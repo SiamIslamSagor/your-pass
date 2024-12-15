@@ -147,3 +147,50 @@ This document outlines the detailed requirements for the **client-side** of YOUR
 ---
 
 This detailed breakdown provides all necessary information to develop the client-side of YOURPASS efficiently. Let me know if you need additional clarification or enhancements!
+
+### Password Checking Feature
+
+1.  **Feature Overview**:
+
+    - Allow users to test their password's strength and check if it has been compromised in known data breaches.
+    - Provide suggestions for improving weak passwords.
+
+2.  **Implementation Approach**:
+
+    - Use a third-party API like **Have I Been Pwned** to check if the password appears in known breaches.
+    - Calculate password strength locally using metrics like length, complexity (symbols, numbers, etc.), and dictionary checks.
+
+Let me know if you’re ready to explore this feature in detail.
+
+### Simple and Easy-to-Develop Features
+
+Here are some user-demanded features that are simple to implement:
+
+1.  **Password Usage Counter**:
+
+    - Display how many times a password has been accessed.
+    - Helps users identify frequently used passwords for prioritizing updates.
+
+2.  **In-App Notifications**:
+
+    - Inform users about expired passwords, account recovery reminders, or app updates.
+    - Easy to implement using a simple notification system.
+
+3.  **Custom Tags for Passwords**:
+
+    - Users can add tags (e.g., "banking," "social media") for easier filtering.
+    - Tags improve organization and searchability.
+
+4.  **Quick Copy**:
+
+    - Add a "Copy" button next to passwords or usernames for quick copying to the clipboard.
+    - Indicate success with a toast notification (e.g., "Copied to clipboard!").
+
+5.  **Recently Viewed Passwords**:
+
+    - Show a list of recently accessed passwords for convenience.
+
+6.  **Color-Coded Categories**:
+
+    - Assign colors to categories (e.g., blue for work, green for personal).
+    - Enhance the visual experience and make categories stand out.
